@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Russian";
+    src: url(./fonts/Russian.ttf);
+}
+body{ 
+    background-image: url(https://wallpapercave.com/wp/wp2231118.jpg);
+    margin: 300px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    border-style: solid; 
+}
+h2{
+    color: rgb(196, 219, 211);
+    text-align: center;
+    font-family: "Russian";
+}
+img{
+    width: 300px;
+    border: 5px solid transparent;
+}
+.title{
+    font-family: "Russian", sans-serif;
+}
+a{
+    color: #cc861c;
+}
+a:hover{
+    color: #5631dd;
+    text-decoration: wavy;
+}
+.facts{
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    list-style-position: outside;
+    list-style-type: square;
+    line-height: 1.3;
+}
+.examples{
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+.const{
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    line-height: 1.3;
+}
